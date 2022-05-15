@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Varela+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #02063f;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.heading h1{
+    text-align: center;
+    color: rgb(87, 170, 184);
+}
+#container {
+    background-image: url(clock.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+    margin: auto;
+}
+
+#hour {
+    height: 20%;
+    width: 2%;
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    left: 49.1%;
+    border-radius: 5px 5px 0 0;
+    transform-origin: bottom;
+}
+
+#minute {
+    height: 30%;
+    width: 1%;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 49.5%;
+    border-radius: 5px 5px 0 0;
+    transform-origin: bottom;
+}
+
+#second {
+    height: 45%;
+    width: 0.5%;
+    background-color: black;
+    position: absolute;
+    top: 5%;
+    left: 49.8%;
+    border-radius: 5px 5px 0 0;
+    transform-origin: bottom;
+}
